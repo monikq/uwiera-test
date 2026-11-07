@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Placeholder: a single leaf. Replace with the real character artwork. -->
+  <rect width="512" height="512" rx="96" fill="#3d4a43"/>
+  <path d="M256 400 C150 330 140 200 256 112 C372 200 362 330 256 400 Z" fill="#a7c4a0"/>
+  <path d="M256 140 L256 392" stroke="#3d4a43" stroke-width="10" stroke-linecap="round"/>
+</svg>
