@@ -1,0 +1,15 @@
+# Cloudflare Pages response headers for static files. They do not apply to /api: responses from
+# Pages Functions skip this file.
+
+# Referrer-Policy: the app links out from the crisis page; where someone came from stays with them.
+# X-Robots-Tag: private test, drop this line when the app goes public.
+/*
+  Referrer-Policy: no-referrer
+  X-Robots-Tag: noindex
+  X-Content-Type-Options: nosniff
+
+# Browsers must ask for these every time, or an old service worker keeps serving an old app.
+/sw.js
+  Cache-Control: no-cache
+/manifest.webmanifest
+  Cache-Control: no-cache
